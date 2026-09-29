@@ -1,0 +1,89 @@
+# Environment Variables, Secrets & Keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+credentials.json
+client_secret*.json
+secrets.json
+*.token
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook & Cache
+.ipynb_checkpoints/
+
+# C extensions & Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs, Editors & Operating System files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.nox/
+.tox/
+
+# Logs & Databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Model Checkpoints & Pickle Binaries
+*.pkl
+*.h5
+*.onnx
+*.pth
+*.pt
+*.bin
+
+# Temporary & Generated Data Files
+data/action_log.csv
+data/historical_consumption.csv
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+

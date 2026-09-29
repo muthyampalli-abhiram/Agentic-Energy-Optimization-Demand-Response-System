@@ -1,0 +1,15 @@
+pandas
+numpy
+fastapi
+uvicorn
+plotly
+langgraph
+langchain
+langchain-anthropic
+scikit-learn
+statsmodels
+prophet
+pydantic
+python-dotenv
+httpx
+pytest
